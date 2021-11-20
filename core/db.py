@@ -1,5 +1,6 @@
 try:
   import pandas as pd
+  import numpy as np
   import ast
 
 except ModuleNotFoundError as m_error:
