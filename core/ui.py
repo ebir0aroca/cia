@@ -4,7 +4,7 @@ try:
   
   import seaborn as sns
   import matplotlib.pyplot as plt
-  import numpy as 
+  import numpy as np
   
   from IPython.display import HTML
   import datetime
