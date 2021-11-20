@@ -1,15 +1,27 @@
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-from IPython.display import HTML
-import datetime
+try:
+  import pandas as pd  
+  import numpy as np 
+  
+  import seaborn as sns
+  import matplotlib.pyplot as plt
+  import numpy as 
+  
+  from IPython.display import HTML
+  import datetime
 
-import bokeh.io
-bokeh.io.output_notebook()
+  import bokeh.io
+  bokeh.io.output_notebook()
 
-import bokeh.layouts
-import bokeh.plotting
+  import bokeh.layouts
+  import bokeh.plotting  
 
+except ModuleNotFoundError as m_error:
+    print(str(m_error))
+    print('please install the required module and try again...')
+    input('press enter to exit....')
+    exit()
+    
+    
 
 
 def missing_data_heatmap(df):
