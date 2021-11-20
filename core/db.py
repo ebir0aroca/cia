@@ -17,6 +17,27 @@ def load_database(db_file_path, compression="infer"):
   db_df = pd.read_csv(db_file_path)
   return db_df
 
+def hist_diff(db, date0, date1):
+  '''
+    returns series of union, intersect and not common 
+  '''
+  db0 = db[db['scrap__spider_date']==date0]
+  db1 = db[db['scrap__spider_date']==date1]
+
+  idx0 = pd.Index(db0['sku'])
+  idx1 = pd.Index(db1['sku'])
+
+  # union of the series
+  union = pd.Series(np.union1d(idx0, idx1))
+    
+  # intersection of the series
+  intersect = pd.Series(np.intersect1d(idx0, idx1))
+    
+  # uncommon elements in both the series 
+  notcommon = union[~union.isin(intersect)]
+
+  return union, intersect, notcommon
+
 
 def flatten_product_reviews(df): 
   #'Id' retrieved
