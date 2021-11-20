@@ -9,6 +9,64 @@ except ModuleNotFoundError as m_error:
     input('press enter to exit....')
     exit()
 
+
+# DATA MODEL
+HIST_DATAFRAME_COLUMNS = {
+                      "title":"string",
+                      "sku":"string",
+                      "product_type1":"string",
+                      "product_type2":"string",
+                      "isStoreBrand":"bool",
+                      "product_url":"string",		
+                      "product_pos_in_page":"int",
+                      "product_page":"int",
+                      "source_category_url":"string",	
+                      "confs":"string",
+                      "isConfigurable":"bool",
+                      "hasVariants":"bool",	
+                      "reviews_rating":"float",
+                      "reviews_count":"float",
+                     	"currency":"string",	
+                      "price":"float",
+                     	"creation_date":"string", #later change to date	
+                      "seller":"string", #dropshipping seller
+                      "EAN":"string",	
+                      "description":"string",		
+                      "isAvailableInShop":"bool",
+                     	"isAvailableOnline":"bool",	
+                      "onlineShippingCost":"float",
+                     	"onlineShippingLeadtime":"string",	
+                      "clickCollectLeadtime":"string",	
+                     #datasheet_urls	
+                     #"logoUrl":"string",	
+                     "clickAndCollectState":"string",	
+                     "clickAndCollectAvailableQuantity":"float",
+                     #"metaKeywords":"string",		
+                     "deliveryTimeText":"string",
+                     "specialPrice":"float",
+                     "isSpecialPrice":"bool",
+                     #nearby_markets	
+                     "brand":"string",	
+                     "img_urls":"string",
+                     #breadcrumbs	
+                     "reviews":"string",	
+                     "isHighlight":"bool", #custom.highlight	
+                     #custom.multipleVariantsText	
+                     #custom.warranty	
+                     #specs.Tip 
+                     #produs	
+                     "scrap__guid":"string",
+                     "scrap__maincategory_url":"string",	
+                     "scrap__spider_country":"string",
+                     "scrap__spider_date_start":"string",
+                     "scrap__spider_date_end":"string",
+                     "scrap__spider_date":"string",
+                     "scrap__spider_marketplace":"string",	
+                     "scrap__spider_name":"string",	
+                     "scrap__spider_version":"string",	
+                     "scrap__title":"string"
+                  }
+
     
 def load_database(db_file_path, compression="infer"):
   print('----------------------------')
@@ -17,6 +75,21 @@ def load_database(db_file_path, compression="infer"):
   
   db_df = pd.read_csv(db_file_path)
   return db_df
+
+def create_empty_database(db_file_path):
+  df = pd.DataFrame(columns = HIST_DATAFRAME_COLUMNS)
+  df.to_csv(db_file_path)
+  
+ 
+def append_to_database(df, db_file_path):
+  database = load_database(db_file_path)
+  database = database.append(df, ignore_index=True)
+  database.to_csv(db_file_path)
+
+def save_database(database, db_file_path):
+  database.to_csv(db_file_path)
+
+  
 
 def hist_diff(db, date0, date1):
   '''
