@@ -1,14 +1,13 @@
 try:
   import pandas as pd  
-  import numpy as np 
+  import numpy as np     
+  import datetime
+  
+  from IPython.display import HTML
   
   import seaborn as sns
   import matplotlib.pyplot as plt
-  import numpy as np
-  
-  from IPython.display import HTML
-  import datetime
-
+  import missingno as msno
   import bokeh.io
   bokeh.io.output_notebook()
 
