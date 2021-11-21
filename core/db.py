@@ -126,7 +126,38 @@ def hist_diff(df, date0, date1):
   '''
   return idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right
 
+def save_hist_diffs(df, db_file_path):
+  all_dates = df['scrap__spider_date'].unique()
+  date_ranges =[{}]
+  df['hist_status'] = "ACTIVE"
 
+  for i in range(len(all_dates)):
+    if(i<len(all_dates)-1): 
+      date_ranges[i]['start_date'] =all_dates[i]
+      date_ranges[i]['end_date'] =all_dates[i+1]
+
+  for date_range in date_ranges:
+    idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = DB.hist_diff(db, date_range['start_date'], date_range['end_date'])
+                
+    db0 = db[db['scrap__spider_date']==date_range['start_date']]
+    db1 = db[db['scrap__spider_date']==date_range['end_date']]
+
+    df_removed = db0[db0['sku'].isin(idx_intersect_left)]
+    df_active = db1[db1['sku'].isin(idx_intersect)]
+    df_new = db1[db1['sku'].isin(idx_intersect_right)]
+
+    df_hist_diffs = pd.DataFrame() 
+    df_removed['hist_status'] = "REMOVED"
+    df_active['hist_status'] = "ACTIVE"
+    df_new['hist_status'] = "NEW"
+    df_hist_diffs = df_hist_diffs.append(df_removed)
+    df_hist_diffs = df_hist_diffs.append(df_active)
+    df_hist_diffs = df_hist_diffs.append(df_new)
+  
+  df_hist_diffs = df_hist_diffs.append(db[db['scrap__spider_date']==all_dates[0]])
+  df_hist_diffs.to_csv(db_file_path)
+    
+    
 def flatten_product_reviews(df): 
   #'Id' retrieved
   columns = ['sku', 'title', 'brand',
