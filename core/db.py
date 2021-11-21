@@ -108,7 +108,7 @@ def hist_diff(df, date0, date1):
   idx_intersect = pd.Series(np.intersect1d(idx0, idx1))
     
   # uncommon elements in both the series 
-  idx_notcommon = union[~npunion.isin(intersect)]
+  idx_notcommon = union[~np.union.isin(intersect)]
   
   idx_left = pd.Index(db0['sku'])
   idx_right = pd.Index(db1['sku'])
