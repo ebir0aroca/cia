@@ -64,7 +64,8 @@ HIST_DATAFRAME_COLUMNS = {
                      "scrap__spider_marketplace":"string",	
                      "scrap__spider_name":"string",	
                      "scrap__spider_version":"string",	
-                     "scrap__title":"string"
+                     "scrap__title":"string",
+                     "hist_status":"string"
                   }
 
     
