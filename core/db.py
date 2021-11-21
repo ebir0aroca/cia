@@ -137,7 +137,7 @@ def save_hist_diffs(df, db_file_path):
       date_ranges[i]['end_date'] =all_dates[i+1]
 
   for date_range in date_ranges:
-    idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = DB.hist_diff(db, date_range['start_date'], date_range['end_date'])
+    idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = hist_diff(db, date_range['start_date'], date_range['end_date'])
                 
     db0 = db[db['scrap__spider_date']==date_range['start_date']]
     db1 = db[db['scrap__spider_date']==date_range['end_date']]
