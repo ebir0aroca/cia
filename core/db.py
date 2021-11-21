@@ -91,26 +91,39 @@ def save_database(database, db_file_path):
 
   
 
-def hist_diff(db, date0, date1):
+def hist_diff(df, date0, date1):
   '''
     returns series of union, intersect and not common 
   '''
-  db0 = db[db['scrap__spider_date']==date0]
-  db1 = db[db['scrap__spider_date']==date1]
+  df0 = df[df['scrap__spider_date']==date0]
+  df1 = df[df['scrap__spider_date']==date1]
 
-  idx0 = pd.Index(db0['sku'])
-  idx1 = pd.Index(db1['sku'])
+  idx0 = pd.Index(df0['sku'])
+  idx1 = pd.Index(df1['sku'])
 
   # union of the series
-  union = pd.Series(np.union1d(idx0, idx1))
+  idx_union = pd.Series(np.union1d(idx0, idx1))
     
   # intersection of the series
-  intersect = pd.Series(np.intersect1d(idx0, idx1))
+  idx_intersect = pd.Series(np.intersect1d(idx0, idx1))
     
   # uncommon elements in both the series 
-  notcommon = union[~union.isin(intersect)]
+  idx_notcommon = union[~union.isin(intersect)]
+  
+  idx_left = pd.Index(db0['sku'])
+  idx_right = pd.Index(db1['sku'])
 
-  return union, intersect, notcommon
+  # intersection of the series
+  idx_intersect_left = pd.Series(np.intersect1d(idx_notcommon, idx_left))
+  idx_intersect_right = pd.Series(np.intersect1d(idx_notcommon, idx_right))
+
+  '''
+    union :         suma de todos (sin duplicados)
+    intersect:      intersección solo
+    not_common:     todo fuera de la intersección
+    intersect_left: elementos izq sin communes
+  '''
+  return idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right
 
 
 def flatten_product_reviews(df): 
