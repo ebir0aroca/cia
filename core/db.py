@@ -137,14 +137,14 @@ def save_hist_diffs(df, db_file_path):
       date_ranges[i]['end_date'] =all_dates[i+1]
 
   for date_range in date_ranges:
-    idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = hist_diff(db, date_range['start_date'], date_range['end_date'])
+    idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = hist_diff(df, date_range['start_date'], date_range['end_date'])
                 
-    db0 = db[db['scrap__spider_date']==date_range['start_date']]
-    db1 = db[db['scrap__spider_date']==date_range['end_date']]
+    df0 = df[df['scrap__spider_date']==date_range['start_date']]
+    df1 = df[df['scrap__spider_date']==date_range['end_date']]
 
-    df_removed = db0[db0['sku'].isin(idx_intersect_left)]
-    df_active = db1[db1['sku'].isin(idx_intersect)]
-    df_new = db1[db1['sku'].isin(idx_intersect_right)]
+    df_removed = df0[df0['sku'].isin(idx_intersect_left)]
+    df_active = df1[df1['sku'].isin(idx_intersect)]
+    df_new = df1[df1['sku'].isin(idx_intersect_right)]
 
     df_hist_diffs = pd.DataFrame() 
     df_removed['hist_status'] = "REMOVED"
@@ -154,7 +154,7 @@ def save_hist_diffs(df, db_file_path):
     df_hist_diffs = df_hist_diffs.append(df_active)
     df_hist_diffs = df_hist_diffs.append(df_new)
   
-  df_hist_diffs = df_hist_diffs.append(db[db['scrap__spider_date']==all_dates[0]])
+  df_hist_diffs = df_hist_diffs.append(df[df['scrap__spider_date']==all_dates[0]])
   df_hist_diffs.to_csv(db_file_path)
     
     
