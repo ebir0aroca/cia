@@ -39,33 +39,33 @@ HIST_DATAFRAME_COLUMNS = {
                       "clickCollectLeadtime":"string",	
                      #datasheet_urls	
                      #"logoUrl":"string",	
-                     "clickAndCollectState":"string",	
-                     "clickAndCollectAvailableQuantity":"float",
+                      "clickAndCollectState":"string",	
+                      "clickAndCollectAvailableQuantity":"float",
                      #"metaKeywords":"string",		
-                     "deliveryTimeText":"string",
-                     "specialPrice":"float",
-                     "isSpecialPrice":"bool",
+                      "deliveryTimeText":"string",
+                      "specialPrice":"float",
+                      "isSpecialPrice":"bool",
                      #nearby_markets	
-                     "brand":"string",	
-                     "img_urls":"string",
+                      "brand":"string",	
+                      "img_urls":"string",
                      #breadcrumbs	
-                     "reviews":"string",	
-                     "isHighlight":"bool", #custom.highlight	
+                      "reviews":"string",	
+                      "isHighlight":"bool", #custom.highlight	
                      #custom.multipleVariantsText	
                      #custom.warranty	
                      #specs.Tip 
                      #produs	
-                     "scrap__guid":"string",
-                     "scrap__maincategory_url":"string",	
-                     "scrap__spider_country":"string",
-                     "scrap__spider_date_start":"string",
-                     "scrap__spider_date_end":"string",
-                     "scrap__spider_date":"string",
-                     "scrap__spider_marketplace":"string",	
-                     "scrap__spider_name":"string",	
-                     "scrap__spider_version":"string",	
-                     "scrap__title":"string",
-                     "hist_status":"string"
+                      "scrap__guid":"string",
+                      "scrap__maincategory_url":"string",	
+                      "scrap__spider_country":"string",
+                      "scrap__spider_date_start":"string",
+                      "scrap__spider_date_end":"string",
+                      "scrap__spider_date":"string",
+                      "scrap__spider_marketplace":"string",	
+                      "scrap__spider_name":"string",	
+                      "scrap__spider_version":"string",	
+                      "scrap__title":"string",
+                      "hist_status":"string"
                   }
 
     
