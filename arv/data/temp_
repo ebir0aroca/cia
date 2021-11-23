@@ -1,0 +1,85 @@
+
+'''
+     elif(marketplace_country=="cz"):
+          df.rename(columns={"specs.Druh výrobku":"product_type1"}, inplace=True)
+          df.rename(columns={"specs.Provedení":"product_type2"}, inplace=True)
+
+          category4_list = ['Zrcadla do koupelny', 'Kosmetická zrcadla', 'Zrcadlové skříňky']
+          #category5_list = ['Osvětlení do koupelny a nad zrcadlo']
+          subset = df[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="cz") &  (~df['category4'].isin(category4_list) )]#& ~df['category5'].isin(category5_list))]
+          df.drop(subset.index, inplace = True)
+
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="cz") & (df["category4"]=="Zrcadla do koupelny"), "category"]= "Bathroom mirror"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="cz") & (df["category4"]=="Zrcadlové skříňky"), "category"]= "Mirror cabinet"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="cz") & (df["category4"]=="Kosmetická zrcadla"), "category"]= "Cosmetic mirror"
+
+     elif(marketplace_country=="sk"):
+          df.rename(columns={"specs.Druh výrobku":"product_type1"}, inplace=True)
+          df.rename(columns={"specs.Vyhotovenie":"product_type2"}, inplace=True)
+          df.rename(columns={"specs.Provedení":"product_type2"}, inplace=True)
+
+          category4_list = ['Zrkadlá do kúpeľne', 'Kozmetické zrkadlá', 'Zrkadlové skrinky']
+          #category5_list = ['Kúpeľňové a zrkadlové svietidlá']
+          subset = df[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="sk") &  (~df['category4'].isin(category4_list) )]#& ~df['category5'].isin(category5_list))]
+          df.drop(subset.index, inplace = True)
+
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="sk") & (df["category4"]=="Zrkadlá do kúpeľne"), "category"]= "Bathroom mirror"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="sk") & (df["category4"]=="Zrkadlové skrinky"), "category"]= "Mirror cabinet"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="sk") & (df["category4"]=="Kozmetické zrkadlá"), "category"]= "Cosmetic mirror"
+
+     elif(marketplace_country=="ro"):
+          df.rename(columns={"specs.Tip produs":"product_type1"}, inplace=True)
+          df.rename(columns={"specs.Model":"product_type2"}, inplace=True)
+
+          category4_list = ['Oglinzi baie','Oglinzi cosmetice','Dulapuri cu oglinda','Iluminat pentru baie']
+          subset = df[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="sk") &  (~df['category4'].isin(category4_list))]
+          df.drop(subset.index, inplace = True)
+
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="ro") & (df["category4"]=="Dulapuri cu oglinda"), "category"]= "Mirror cabinet"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="ro") & (df["category4"]=="Oglinzi baie"), "category"]= "Bathroom mirror"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="ro") & (df["category4"]=="Oglinzi cosmetice"), "category"]= "Cosmetic mirror"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="ro") & (df["category4"]=="Iluminat pentru baie"), "category"]= "Bathroom lighting"
+
+     elif(marketplace_country=="at"):
+          df.rename(columns={"specs.Artikeltyp":"product_type1"}, inplace=True)
+          df.rename(columns={"specs.Ausführung":"product_type2"}, inplace=True)
+
+          #'Badleuchten & Spiegelleuchten' not in the Bathroom section
+          category4_list = ['Badezimmerspiegel','Kosmetikspiegel','Badezimmerschränke']
+          subset = df[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="de") &  (~df['category4'].isin(category4_list))]
+          df.drop(subset.index, inplace = True)
+
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="at") & (df["category4"]=="Badezimmerspiegel"), "category"]= "Bathroom mirror"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="at") & (df["category4"]=="Badezimmerschränke"), "category"]= "Mirror cabinet"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="at") & (df["category4"]=="Kosmetikspiegel"), "category"]= "Cosmetic mirror"
+
+
+     elif(marketplace_country=="ch"):
+          df.rename(columns={"specs.Artikeltyp":"product_type1"}, inplace=True)
+          df.rename(columns={"specs.Ausführung":"product_type2"}, inplace=True)
+
+          #Kosmetikspiegel is inside Badezimmerspiegel
+          category4_list = ['Badezimmerspiegel','Badezimmerschränke','Badleuchten & Spiegelleuchten']
+          subset = df[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="de") &  (~df['category4'].isin(category4_list))]
+          df.drop(subset.index, inplace = True)
+
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="ch") & (df["category4"]=="Badezimmerschränke"), "category"]= "Mirror cabinet"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="ch") & (df["category4"]=="Badezimmerspiegel"), "category"]= "Bathroom mirror"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="ch") & (df["category4"]=="Badleuchten & Spiegelleuchten"), "category"]= "Bathroom lighting"
+
+        #Lacks Luxemburg
+
+     elif(marketplace_country=="nl"):
+          df.rename(columns={"specs.Type artikel":"product_type1"}, inplace=True)
+          df.rename(columns={"specs.Uitvoering":"product_type2"}, inplace=True)
+
+          #'Kosmetikspiegel' inside ,'Badleuchten & Spiegelleuchten' don't knw where
+          category4_list = ['Badkamerspiegels','Badkamerkasten']
+          subset = df[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="de") &  (~df['category4'].isin(category4_list))]
+          df.drop(subset.index, inplace = True)
+
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="nl") & (df["category4"]=="Badkamerspiegels"), "category"]= "Bathroom mirror"
+          df.loc[(df['scrap__spider_marketplace']=="hornbach") & (df['scrap__spider_country']=="nl") & (df["category4"]=="Badkamerspiegelkasten"), "category"]= "Mirror cabinet"
+
+
+'''
