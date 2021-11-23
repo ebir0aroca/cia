@@ -21,9 +21,19 @@ except ModuleNotFoundError as m_error:
 settings = APP.Settings(sys.path[0])
 
 
+
+DB.transform_all(settings=settings, delete_scrap_files=False)
+
+#print(db['category'].unique())
+
+#ATENCION: no elimina el SCRAP
+#HAY QUE CAMBIAR ILUMINATED BATHROOM MIRROR PARA TODOS Y DIFERENCIAR BIEN LAS CATEGORIAS
+
+
+
 '''
-db = DB.load_database(file_path=settings.dbs_file_path)
-DB.transform_all(settings=settings)
+#print(settings.scrapes_filepath_list)
+
 
 last_date = DB.get_lastdate(database=db, date_format=settings.date_format)
 last_snapshot =db[db['scrap__spider_date']==last_date.strftime(settings.date_format)]
