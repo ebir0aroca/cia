@@ -10,12 +10,10 @@ try:
   import json
   import ast
   from datetime import datetime
-  import arv.core.settings as APP
 
 except ModuleNotFoundError as m_error:
     print(str(m_error))
     print('please install the required module and try again...')
-    input('press enter to exit....')
     exit()
 
 
