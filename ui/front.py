@@ -17,7 +17,6 @@ try:
 except ModuleNotFoundError as m_error:
     print(str(m_error))
     print('please install the required module and try again...')
-    input('press enter to exit....')
     exit()
     
     
