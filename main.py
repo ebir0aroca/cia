@@ -10,7 +10,6 @@ try:
     import sys
     import arv.data.transformer as DB
     import arv.core.settings as APP
-    #import arv.ui.front as UI
 
 except ModuleNotFoundError as m_error:
     print(str(m_error))
@@ -20,14 +19,15 @@ except ModuleNotFoundError as m_error:
 
 settings = APP.Settings(sys.path[0])
 
-
-
+#comprobar que funciona correctamente el rename_dataframe_cols y el delete_dataframe_cols
 DB.transform_all(settings=settings, delete_scrap_files=False)
 
+db = pd.read_csv(settings.products_database_filepath)
 #print(db['category'].unique())
-
+#print(db[db['sku']==10172830])
 #ATENCION: no elimina el SCRAP
 #HAY QUE CAMBIAR ILUMINATED BATHROOM MIRROR PARA TODOS Y DIFERENCIAR BIEN LAS CATEGORIAS
+
 
 
 

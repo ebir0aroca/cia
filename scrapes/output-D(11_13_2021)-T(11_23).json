@@ -1,0 +1,20 @@
+[
+  {
+    "scrap_meta": {
+      "guid": "669440c7-cfc9-42dd-95cc-7b96ef11c13e",
+      "date_start": "2021-11-13 11:23:26",
+      "date_end": "",
+      "title": "Weekly scraping process",
+      "spider_name": "hornbach_spider",
+      "spider_date_start": "2021-11-13 11:23:26",
+      "spider_date_end": "2021-11-13 11:23:44",
+      "spider_version": "1.0",
+      "spider_marketplace": "hornbach",
+      "spider_country": "xdex",
+      "spider_lang": "xdex",
+      "marketplace_url": "https://www.hornbach.xdex",
+      "maincategory_url": "xhttps://www.hornbach.de/shop/Badewannen/S516/artikelliste.htmlx"
+    },
+    "scraped_products_data": []
+  }
+]
