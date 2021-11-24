@@ -309,9 +309,8 @@ def hist_diff(df, date0, date1):
     return idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right
 
 
-
 def save_hist_diffs(df, db_file_path):
-    all_dates = df['scrap__spider_date'].unique()
+    all_dates = df['scrap_meta.spider_date'].unique()
     date_ranges = [{}]
     df['hist_status'] = "ACTIVE"
 
@@ -324,8 +323,8 @@ def save_hist_diffs(df, db_file_path):
         idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = hist_diff(df, date_range[
             'start_date'], date_range['end_date'])
 
-        df0 = df[df['scrap__spider_date'] == date_range['start_date']]
-        df1 = df[df['scrap__spider_date'] == date_range['end_date']]
+        df0 = df[df['scrap_meta.spider_date'] == date_range['start_date']]
+        df1 = df[df['scrap_meta.spider_date'] == date_range['end_date']]
 
         df_removed = df0[df0['sku'].isin(idx_intersect_left)]
         df_active = df1[df1['sku'].isin(idx_intersect)]
@@ -339,9 +338,8 @@ def save_hist_diffs(df, db_file_path):
         df_hist_diffs = df_hist_diffs.append(df_active)
         df_hist_diffs = df_hist_diffs.append(df_new)
 
-    df_hist_diffs = df_hist_diffs.append(df[df['scrap__spider_date'] == all_dates[0]])
+    df_hist_diffs = df_hist_diffs.append(df[df['scrap_meta.spider_date'] == all_dates[0]])
     df_hist_diffs.to_csv(db_file_path)
-
 
 def transform_all(settings, delete_scrap_files):
     print('----------------------------')
