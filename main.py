@@ -20,11 +20,13 @@ except ModuleNotFoundError as m_error:
 settings = APP.Settings(sys.path[0])
 
 #comprobar que funciona correctamente el rename_dataframe_cols y el delete_dataframe_cols
-DB.transform_all(settings=settings, delete_scrap_files=False)
+#DB.transform_all(settings=settings, delete_scrap_files=False)
 
 db = pd.read_csv(settings.products_database_filepath)
-#print(db['category'].unique())
-#print(db[db['sku']==10172830])
+
+DB.dataframe_info(db, "TITULAR")
+
+
 #ATENCION: no elimina el SCRAP
 #HAY QUE CAMBIAR ILUMINATED BATHROOM MIRROR PARA TODOS Y DIFERENCIAR BIEN LAS CATEGORIAS
 
