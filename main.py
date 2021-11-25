@@ -18,14 +18,20 @@ except ModuleNotFoundError as m_error:
 
 
 settings = APP.Settings(sys.path[0])
-#ATENCION: no elimina el SCRAP
-#DB.transform_all(settings=settings, delete_scrap_files=False)
 
-#DB.dataframe_info(db, "TITULAR")
+print(" 0. Transform all")
+print(" 1. Get DB info")
+chose = input("Choose an option.")
+if(chose=="0"):
+    #ATENCION: no elimina el SCRAP
+    B.transform_all(settings=settings, delete_scrap_files=False)
+elif(chose=="1"):
+    db = pd.read_csv(settings.products_database_filepath)
+    DB.dataframe_info(db, "TITULAR")
 
-db = pd.read_csv(settings.products_database_filepath)
-idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = DB.hist_diff(db, '2021-11-06', '2021-11-13')
-print(idx_intersect_right)
+
+#idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = DB.hist_diff(db, '2021-11-06', '2021-11-13')
+#print(idx_intersect_right)
 '''
 
 ROADMAP:
