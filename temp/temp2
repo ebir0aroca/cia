@@ -1,0 +1,38 @@
+#By marketplace==hornbach  and all countries available in the HIST_DATAFRAME_COLUMNS_RENAME
+      for i, transformer_row in transformer.iterrows():
+          #PENDING: check if empty dataset for the given country
+          if ((transformer_row['scrapper'] == "hornbach")):
+              country = transformer_row['country']
+              print(f"Cleaning {country}.")
+              df_1 = df_0.loc[(df_0['scrap__spider_country'] == country)]
+              # Renaming, take the first element from the dict next(iter(...))
+              rename_cols = next(iter(transformer[(transformer['scrapper'] == 'hornbach') & (transformer['country'] == country)]['rename_cols']))
+              if(len(rename_cols)!=0):
+                  df_1 = rename_dataframe_cols(rename_cols, df_1)
+
+              # Category, take the first element from the dict next(iter(...))
+              field_name = 'category'
+              field_conf = next(iter(transformer[(transformer['scrapper'] == 'hornbach') & (transformer['country'] == country)][field_name]))
+              df_1 = rename_field_value(field_conf, 'category', df_1)
+
+              # Join all results,
+              # drop rows without category assignation
+              # and remove temporal cols created at the beginning.
+              res_df = res_df.append(df_1)
+              res_df.dropna(subset=["category"], inplace=True)
+              if(len(rename_cols)!=0):
+                  res_df = drop_dataframe_cols(rename_cols, res_df)
+
+
+
+
+dataframe.rename(columns=lambda x: x.replace('scrap_meta.', 'scrap__'), inplace=True)
+
+
+ #curr_transformer = next(iter(transformer[(transformer['scrapper'] == curr_marketplace_name) &
+          #                                         (transformer['country'] == curr_marketplace_country)]))
+rename_cols = next(iter(curr_transformer['rename_cols']))
+
+          #next(iter(curr_transformer[field_name]))
+
+

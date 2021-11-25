@@ -18,22 +18,28 @@ except ModuleNotFoundError as m_error:
 
 
 settings = APP.Settings(sys.path[0])
-
-#comprobar que funciona correctamente el rename_dataframe_cols y el delete_dataframe_cols
+#ATENCION: no elimina el SCRAP
 #DB.transform_all(settings=settings, delete_scrap_files=False)
 
+#DB.dataframe_info(db, "TITULAR")
+
 db = pd.read_csv(settings.products_database_filepath)
-
-DB.dataframe_info(db, "TITULAR")
-
-
-#ATENCION: no elimina el SCRAP
-#HAY QUE CAMBIAR ILUMINATED BATHROOM MIRROR PARA TODOS Y DIFERENCIAR BIEN LAS CATEGORIAS
-
-
-
-
+idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = DB.hist_diff(db, '2021-11-06', '2021-11-13')
+print(idx_intersect_right)
 '''
+
+ROADMAP:
+    Cambiar el proceso de append a la base de datos y que no cargue toda cada vez    
+    Controlar los data types en los procesos de append para evitar DtypeWarning
+    
+    Diffs entre scrappers: altas y bajas
+    Sistema de limpieza y detección de errores
+    Snapshot 
+    Y snapshot reviews 
+    BI analytics 
+
+
+
 #print(settings.scrapes_filepath_list)
 
 
