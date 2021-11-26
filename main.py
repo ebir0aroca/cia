@@ -1,6 +1,7 @@
 '''
     pip install pandas
     pip install regex
+    pip install PyDrive
 '''
 
 try:
@@ -16,18 +17,24 @@ except ModuleNotFoundError as m_error:
     print('please install the required module and try again...')
     exit()
 
-
 settings = APP.Settings(sys.path[0])
+
 
 print(" 0. Transform all")
 print(" 1. Get DB info")
+print(" 2. Get last Snapshot")
 chose = input("Choose an option.")
 if(chose=="0"):
     #ATENCION: no elimina el SCRAP
-    B.transform_all(settings=settings, delete_scrap_files=False)
+    DB.transform_all(settings=settings, delete_scrap_files=False)
 elif(chose=="1"):
-    db = pd.read_csv(settings.products_database_filepath)
+    db = settings.load_db()
     DB.dataframe_info(db, "TITULAR")
+elif(chose=="2"):
+    db = settings.load_db()
+    last_date = DB.get_lastdate(db, settings.date_format)
+    db_snapshot = db[db['scrap_meta.spider_date'] == last_date]
+
 
 
 #idx_union, idx_intersect, idx_notcommon, idx_intersect_left, idx_intersect_right = DB.hist_diff(db, '2021-11-06', '2021-11-13')
