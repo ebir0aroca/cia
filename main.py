@@ -11,6 +11,7 @@ try:
     import sys
     import arv.data.transformer as DB
     import arv.core.settings as APP
+    from zipfile import ZipFile
 
 except ModuleNotFoundError as m_error:
     print(str(m_error))
@@ -22,15 +23,19 @@ settings = APP.Settings(sys.path[0])
 
 print(" 0. Transform all")
 print(" 1. Get DB info")
-print(" 2. Get last Snapshot")
+print(" 2. Get DB info (zip)")
+print(" 3. Get last Snapshot")
 chose = input("Choose an option.")
 if(chose=="0"):
     #ATENCION: no elimina el SCRAP
     DB.transform_all(settings=settings, delete_scrap_files=False)
 elif(chose=="1"):
-    db = settings.load_db()
+    db = settings.load_db(fromZip=False)
     DB.dataframe_info(db, "TITULAR")
 elif(chose=="2"):
+    db = settings.load_db(fromZip=True)
+    DB.dataframe_info(db, "TITULAR")
+elif(chose=="3"):
     db = settings.load_db()
     last_date = DB.get_lastdate(db, settings.date_format)
     db_snapshot = db[db['scrap_meta.spider_date'] == last_date]
