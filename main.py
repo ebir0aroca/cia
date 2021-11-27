@@ -13,6 +13,7 @@ try:
     import arv.data.transformer as DB
     import arv.core.settings as APP
     import arv.sources.website_monitor as WSM
+    import arv.sources.seo as SEO
     from zipfile import ZipFile
 
 except ModuleNotFoundError as m_error:
@@ -27,7 +28,8 @@ print(" 0. Transform all")
 print(" 1. Get DB info")
 print(" 2. Get DB info (zip)")
 print(" 3. Get last Snapshot")
-print(" 4. Get last Snapshot")
+print(" 4. Website monitor")
+print(" 5. Website monitor")
 chose = input("Choose an option.")
 if(chose=="0"):
     #ATENCION: no elimina el SCRAP
@@ -43,7 +45,7 @@ elif(chose=="3"):
     last_date = DB.get_lastdate(db, settings.date_format)
     db_snapshot = db[db['scrap_meta.spider_date'] == last_date]
 elif(chose=="4"):
-    websites_to_monitor = settings.load_websites_monitor_list()
+    websites_to_monitor = settings.load_surveillance_list()
     monitoring_results_df = WSM.monitor_websites(websites_to_monitor)
     monitoring_results_df.to_csv(os.path.join(settings.databases_folderpath, 'monitoring_results.csv'))
 

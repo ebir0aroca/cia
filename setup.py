@@ -3,6 +3,7 @@
 
 # Note: To use the 'upload' functionality of this file, you must:
 #   $ pipenv install twine --dev
+#  https://github.com/navdeep-G/setup.py/edit/master/setup.py
 
 import io
 import os

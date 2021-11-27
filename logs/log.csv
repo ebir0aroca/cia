@@ -1,3 +1,286 @@
-11/19/21 16:20:34,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Max retries exceeded with url: /cms/de/de/sortiment/bad-sanitaer.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022CC79F7580>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))on line:81"
-11/19/21 16:20:37,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Max retries exceeded with url: /cms/de/de/sortiment/bad-sanitaer.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022CC79F7730>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))on line:81"
-11/19/21 16:20:40,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Max retries exceeded with url: /cms/de/de/sortiment/bad-sanitaer.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022CC79F7310>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))on line:81"
+11/27/21 11:54:43,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:33,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:34,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:55:40,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:56:04,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:04,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:04,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:11,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:11,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:12,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:37,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:37,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:37,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:44,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:44,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:56:46,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:10,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:10,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:10,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:13,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:57:13,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:57:14,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:57:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:19,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:57:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:57:22,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:57:44,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:44,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:44,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:51,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:57:52,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:23,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:24,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:53,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:58:53,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:58:53,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:58:57,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:57,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:58:58,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:00,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:59:01,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:59:02,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 11:59:24,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:30,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:32,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:33,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:57,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:58,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 11:59:58,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:00:03,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:00:05,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:00:08,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:02:41,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:42,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:43,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:43,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:02:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:03:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:21,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:21,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:21,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:22,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:22,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:54,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:54,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:54,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:55,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:55,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:03:56,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:04:27,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:04:27,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:04:28,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:04:28,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:04:28,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:04:29,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:04:30,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:04:30,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:04:31,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:04:31,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:04:31,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:04:32,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:05:00,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:00,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:02,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:03,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:03,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:04,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:33,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:34,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:36,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:36,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:36,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:05:37,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:06,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:07,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:09,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:09,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:09,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:10,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:06:10,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:06:10,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:12,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:06:12,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:06:13,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:06:13,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:06:40,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:40,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:42,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:43,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:44,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:06:45,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:13,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:13,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:15,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:16,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:18,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:51,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:07:53,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:07:54,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:08:11,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:11,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:12,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:12,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:45,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:45,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:45,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:46,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:46,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:08:58,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:18,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:18,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:18,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:19,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:19,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:21,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:09:32,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:35,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:09:51,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:51,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:51,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:52,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:52,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:09:54,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:09:55,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:09:55,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:09:55,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:10:05,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:26,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:27,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:38,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:58,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:58,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:59,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:10:59,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:00,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:01,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:11:11,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:15,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:11:31,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:31,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:32,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:32,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:33,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:11:34,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:11:35,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:11:35,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:11:36,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:11:46,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:04,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:05,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:05,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:06,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:19,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:39,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:40,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:12:42,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:13,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:14,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:16,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:21,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:22,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:44,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:13:47,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:49,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:50,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:13:55,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:13:56,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:14,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:16,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:23,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:29,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:29,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:47,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:49,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:53,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:14:56,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:02,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:02,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:05,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:15:20,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:22,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:24,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:15:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:15:27,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:29,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:30,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:15:33,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:15:35,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:36,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:39,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:15:54,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:15:57,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:00,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:03,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:09,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:09,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:27,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:30,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:33,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:36,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:42,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:42,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:16:45,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:17:00,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:03,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:03,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:17:06,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:17:06,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:09,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:10,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:17:12,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:17:15,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:15,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:19,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:17:34,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:37,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:40,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:43,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:49,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:49,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:17:52,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:18:11,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:18:17,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:18:22,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:18:25,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:18:29,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:18:49,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:18:55,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:18:56,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,list index out of rangeon line:71
+11/27/21 12:19:01,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:19:26,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:19:27,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:19:28,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:19:33,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
+11/27/21 12:19:45,de,https://www.hornbach.de/cms/de/de/sortiment/bad-sanitaer.html,"HTTPSConnectionPool(host='www.hornbach.de', port=443): Read timed out. (read timeout=30)on line:81"
