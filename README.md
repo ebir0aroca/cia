@@ -3,5 +3,5 @@
 * [Go to Real Cool Heading section](#real-cool-heading)
 
 * [config folder](/arv/core/config)
-** product_data_transformer.json
-** product_datamodel.json
+ * product_data_transformer.json
+ * product_datamodel.json
