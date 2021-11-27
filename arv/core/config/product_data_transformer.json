@@ -1,0 +1,490 @@
+{"transformer":
+  [
+    {
+      "marketplace": "hornbach",
+      "countries": [
+        {
+          "country": "de",
+          "fields": [
+            {
+              "name": "category",
+              "assignation": {
+                "Bathroom mirror": [
+                  {
+                    "category4": "Badspiegel"
+                  }
+                ],
+                "Illuminated bathroom mirror": [
+                  {
+                    "category4": "Badspiegel"
+                  },
+                  {
+                    "specs.Ausführung": "Lichtspiegel"
+                  }
+                ],
+                "Foot bathroom Mirror": [
+                  {
+                    "category4": "Badspiegel"
+                  },
+                  {
+                    "specs.Ausführung": "Standspiegel"
+                  }
+                ],
+                "Bathroom furniture set": [
+                  {
+                    "category4": "Badmöbel-Set"
+                  },
+                  {
+                    "specs.Beleuchtung": "Indirekte Beleuchtung"
+                  }
+                ],
+                "Bathroom furniture set": [
+                  {
+                    "category4": "Badmöbel-Set"
+                  },
+                  {
+                    "specs.Beleuchtung": "LED"
+                  }
+                ],
+                "Bathroom furniture set": [
+                  {
+                    "category4": "Badmöbel-Set"
+                  },
+                  {
+                    "specs.Beleuchtung": "LED Lampe"
+                  }
+                ],
+                "Bathroom furniture set": [
+                  {
+                    "category4": "Badmöbel-Set"
+                  },
+                  {
+                    "specs.Beleuchtung": "LED Lichtleiste"
+                  }
+                ],
+                "Bathroom furniture set": [
+                  {
+                    "category4": "Badmöbel-Set"
+                  },
+                  {
+                    "specs.Beleuchtung": "Lichtleiste mit 2 LED Strahlern"
+                  }
+                ],
+                "Mirror cabinet": [
+                  {
+                    "category4": "Spiegelschränke"
+                  }
+                ],
+                "Illuminated mirror cabinet": [
+                  {
+                    "category4": "Spiegelschränke"
+                  },
+                  {
+                    "specs.Variante": "Mit Beleuchtung"
+                  }
+                ],
+                "Cosmetic mirror": [
+                  {
+                    "category4": "Kosmetikspiegel"
+                  }
+                ],
+                "Illuminated cosmetic mirror": [
+                  {
+                    "category4": "Kosmetikspiegel"
+                  },
+                  {
+                    "specs.Art": "Beleuchtungsspiegel"
+                  }
+                ],
+                "Bathroom lighting": [
+                  {
+                    "category4": "Badleuchten & Spiegelleuchten"
+                  },
+                  {
+                    "specs.inklusive Leuchtmittel": "Ja"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "country": "se",
+          "fields": [
+            {
+              "name": "category",
+              "assignation": {
+                "Bathroom mirror": [
+                  {
+                    "category4": "Badrumsspeglar"
+                  }
+                ],
+                "Illuminated bathroom mirror": [
+                  {
+                    "category4": "Badrumsspeglar"
+                  },
+                  {
+                    "specs.Utförande": "Belyst spegel"
+                  }
+                ],
+                "Mirror cabinet": [
+                  {
+                    "category4": "Spegelskåp"
+                  }
+                ],
+                "Illuminated mirror cabinet": [
+                  {
+                    "category4": "Spegelskåp"
+                  },
+                  {
+                    "specs.Variant": "Med belysning"
+                  }
+                ],
+                "Cosmetic mirror": [
+                  {
+                    "category5": "Sminkspeglar"
+                  }
+                ],
+                "Illuminated cosmetic mirror": [
+                  {
+                    "category5": "Sminkspeglar"
+                  },
+                  {
+                    "specs.Typ": "Spegel med belysning"
+                  }
+                ],
+                "Bathroom lighting": [
+                  {
+                    "category4": "Badrumsbelysning"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "country": "cz",
+          "fields": [
+            {
+              "name": "category",
+              "assignation": {
+                "Bathroom mirror": [
+                  {
+                    "category4": "Zrcadla do koupelny"
+                  }
+                ],
+                "Illuminated bathroom mirror": [
+                  {
+                    "category4": "Zrcadla do koupelny"
+                  },
+                  {
+                    "specs.Provedení": "Zrcadlo s osvětlením"
+                  }
+                ],
+                "Mirror cabinet": [
+                  {
+                    "category4": "Zrcadlové skříňky"
+                  }
+                ],
+                "Illuminated mirror cabinet": [
+                  {
+                    "category4": "Zrcadlové skříňky"
+                  },
+                  {
+                    "specs.Varianta": "S osvětlením"
+                  }
+                ],
+                "Cosmetic mirror": [
+                  {
+                    "category4": "Kosmetická zrcadla"
+                  }
+                ],
+                "Illuminated cosmetic mirror": [
+                  {
+                    "category4": "Kosmetická zrcadla"
+                  },
+                  {
+                    "specs.Druh": "Zrcadlo s osvětlením"
+                  }
+                ],
+                "Bathroom lighting": [
+                  {
+                    "category6": "Osvětlení do koupelny a nad zrcadlo"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "country": "sk",
+          "fields": [
+            {
+              "Bathroom mirror": [
+                {
+                  "category4": "Zrkadlá do kúpeľne"
+                }
+              ],
+              "Illuminated bathroom mirror": [
+                {
+                  "category4": "Zrkadlá do kúpeľne"
+                },
+                {
+                  "specs.Vyhotovenie": "Zrkadlo so svetlom"
+                }
+              ],
+              "Mirror cabinet": [
+                {
+                  "category4": "Zrkadlové skrinky"
+                }
+              ],
+              "Illuminated mirror cabinet": [
+                {
+                  "category4": "Zrkadlové skrinky"
+                },
+                {
+                  "specs.Varianta": "S osvetlením"
+                }
+              ],
+              "Cosmetic mirror": [
+                {
+                  "category4": "Kozmetické zrkadlá"
+                }
+              ],
+              "Illuminated cosmetic mirror": [
+                {
+                  "category4": "Kozmetické zrkadlá"
+                },
+                {
+                  "specs.Typ": "Zrkadlo s osvetlením"
+                }
+              ],
+              "Bathroom lighting": [
+                {
+                  "category6": "Kúpeľňové a zrkadlové svietidlá"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "ro",
+          "fields": [
+            {
+              "name": "category",
+              "assignation": {
+                "Bathroom mirror": [
+                  {
+                    "category4": "Oglinzi baie"
+                  }
+                ],
+                "Illuminated bathroom mirror": [
+                  {
+                    "category4": "Oglinzi baie"
+                  },
+                  {
+                    "specs.Model": "Oglinda cu iluminare"
+                  }
+                ],
+                "Mirror cabinet": [
+                  {
+                    "category4": "Dulapuri cu oglinda"
+                  }
+                ],
+                "Illuminated mirror cabinet": [
+                  {
+                    "category4": "Dulapuri cu oglinda"
+                  },
+                  {
+                    "specs.Varianta": "Cu iluminare"
+                  }
+                ],
+                "Cosmetic mirror": [
+                  {
+                    "category4": "Oglinzi cosmetice "
+                  }
+                ],
+                "Illuminated cosmetic mirror": [
+                  {
+                    "category4": "Oglinzi cosmetice "
+                  },
+                  {
+                    "specs.Tip": "Oglinda cu iluminare"
+                  }
+                ],
+                "Bathroom lighting": [
+                  {
+                    "category4": "Iluminat pentru baie"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "country": "at",
+          "fields": [
+            {
+              "name": "category",
+              "assignation": {
+                "Bathroom mirror": [
+                  {
+                    "category4": "Badezimmerspiegel"
+                  }
+                ],
+                "Illuminated bathroom mirror": [
+                  {
+                    "category4": "Badezimmerspiegel"
+                  },
+                  {
+                    "specs.Ausführung": "Lichtspiegel"
+                  }
+                ],
+                "Mirror cabinet": [
+                  {
+                    "category4": "Spiegelschränke"
+                  }
+                ],
+                "Illuminated mirror cabinet": [
+                  {
+                    "category4": "Spiegelschränke"
+                  },
+                  {
+                    "specs.Variante": "Mit Beleuchtung"
+                  }
+                ],
+                "Cosmetic mirror": [
+                  {
+                    "category4": "Kosmetikspiegel"
+                  }
+                ],
+                "Illuminated cosmetic mirror": [
+                  {
+                    "category4": "Kosmetikspiegel"
+                  },
+                  {
+                    "specs.Art": "Beleuchtungsspiegel"
+                  }
+                ],
+                "Bathroom lighting": [
+                  {
+                    "category4": "Badleuchten & Spiegelleuchten"
+                  },
+                  {
+                    "specs.inklusive Leuchtmittel": "Ja"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "country": "ch",
+          "fields": [
+            {
+              "name": "category",
+              "assignation": {
+                "Bathroom mirror": [
+                  {
+                    "category4": "Badezimmerspiegel"
+                  }
+                ],
+                "Illuminated bathroom mirror": [
+                  {
+                    "category4": "Badezimmerspiegel"
+                  },
+                  {
+                    "specs.Ausführung": "Lichtspiegel"
+                  }
+                ],
+                "Mirror cabinet": [
+                  {
+                    "category4": "Spiegelschränke"
+                  }
+                ],
+                "Illuminated mirror cabinet": [
+                  {
+                    "category4": "Spiegelschränke"
+                  },
+                  {
+                    "specs.Variante": "Mit Beleuchtung"
+                  }
+                ],
+                "Cosmetic mirror": [
+                  {
+                    "category4": "Kosmetikspiegel"
+                  }
+                ],
+                "Illuminated cosmetic mirror": [
+                  {
+                    "category5": "Kosmetikspiegel"
+                  },
+                  {
+                    "specs.Art": "Beleuchtungsspiegel"
+                  }
+                ],
+                "Bathroom lighting": [
+                  {
+                    "category4": "Spiegelleuchten & Badezimmerleuchten"
+                  },
+                  {
+                    "specs.inklusive Leuchtmittel": "Ja"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "country": "nl",
+          "fields": [
+            {
+              "name": "category",
+              "assignation": {
+                "Bathroom mirror": [
+                  {
+                    "category4": "Badkamerspiegels"
+                  }
+                ],
+                "Illuminated bathroom mirror": [
+                  {
+                    "category4": "Badkamerspiegels"
+                  },
+                  {
+                    "specs.Uitvoering": "Lichtspiegels"
+                  }
+                ],
+                "Mirror cabinet": [
+                  {
+                    "category4": "Badkamerspiegelkasten"
+                  }
+                ],
+                "Illuminated mirror cabinet": [
+                  {
+                    "category4": "Badkamerspiegelkasten"
+                  },
+                  {
+                    "specs.Variant": "Met verlichting"
+                  }
+                ],
+                "Cosmetic mirror": [
+                  {
+                    "category5": "Cosmetica spiegels"
+                  }
+                ],
+                "Illuminated cosmetic mirror": [
+                  {
+                    "category5": "Cosmetica spiegels"
+                  },
+                  {
+                    "specs.Aantal delen": "Spiegelverlichting"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
