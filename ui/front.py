@@ -17,9 +17,11 @@ try:
 except ModuleNotFoundError as m_error:
     print(str(m_error))
     print('please install the required module and try again...')
+    input('press enter to exit....')
     exit()
     
-    
+
+
 
 
 def missing_data_heatmap(df):
@@ -55,11 +57,11 @@ def show_col_hist(df, col_name):
 
 def info(df, title):
   print(f"-------------{title}-------------") 
-  start_datetime = datetime.datetime.strptime(df.iloc[-1]['scrap__spider_date_start'], '%Y-%m-%d %H:%M:%S')
-  finish_datetime = datetime.datetime.strptime(df.iloc[-1]['scrap__spider_date_end'], '%Y-%m-%d %H:%M:%S')
+  start_datetime = datetime.datetime.strptime(df.iloc[-1]['scrap_meta.spider_date_start'], '%Y-%m-%d %H:%M:%S')
+  finish_datetime = datetime.datetime.strptime(df.iloc[-1]['scrap_meta.spider_date_end'], '%Y-%m-%d %H:%M:%S')
   currency = df.iloc[-1]['currency']
   delta = finish_datetime - start_datetime
-  print(f'Spider: {df.iloc[-1]["scrap__spider_marketplace"]}.{df.iloc[-1]["scrap__spider_country"]}, version {df.iloc[-1]["scrap__spider_version"]}')
+  print(f'Spider: {df.iloc[-1]["scrap_meta.spider_marketplace"]}.{df.iloc[-1]["scrap_meta.spider_country"]}, version {df.iloc[-1]["scrap_meta.spider_version"]}')
   print(f'    Delta:  {delta}, ')
   print(f'    Start:  {start_datetime}')
   print(f'    Finish:  {finish_datetime}')
@@ -236,3 +238,16 @@ def show_time_series_lag_plot(dataframe):
     i+=1
     
   plt.show()
+
+
+CATALOG_COLS = ['sku', 'title', 'brand', 'isAvailableInShop', 'img_url', 'reviews_count', 'reviews_rating', 'product_url', 'source_category_url']
+CATALOG_FORMATTER = { 'img_url': image_formatter, 'source_category_url': link_formatter, 'product_url':link_formatter}
+
+
+from IPython.display import HTML
+def image_formatter(im):
+  return f'<img src="{im}" height="100">'
+
+def link_formatter(link):
+  return f'<a href="{link}">View Page.</a>'
+
