@@ -315,3 +315,28 @@ def removing_special_characters(text):
     Formatted_Text = re.sub(r"[^a-zA-Z0-9:$-,%.?!]+", ' ', text) 
     # In the above regex expression,I am providing necessary set of punctuations that are frequent in this particular dataset.
     return Formatted_Text
+
+
+import matplotlib.pyplot as plt; plt.rcdefaults()
+import numpy as np
+import matplotlib.pyplot as plt
+def plotBarGraph(x,y, title):
+    y_pos = np.arange(len(x))
+    plt.rcParams["figure.figsize"] = (20,7)
+    plt.bar(y_pos, y, align='center', alpha=0.7)
+    plt.xticks(y_pos, x, rotation=90)
+    plt.ylabel('Occurrence')
+    plt.xlabel('Words')
+    plt.title(title)
+    return plt.show()
+
+from collections import Counter
+def getMostCommonWords(text_list,num_of_words=25):
+    words = []
+    count = []
+    myDict = Counter()
+    myDict.update(' '.join(text_list).split())
+    for w,c in myDict.most_common(num_of_words):
+        words.append(w)
+        count.append(c)
+    return words,count
