@@ -2,6 +2,11 @@ import re
 from bs4 import BeautifulSoup
 import unidecode
 
+import matplotlib.pyplot as plt; plt.rcdefaults()
+import numpy as np
+import matplotlib.pyplot as plt
+from collections import Counter
+
 def remove_links(text):
     """
     This function will remove all the occurrences of links.
@@ -316,10 +321,6 @@ def removing_special_characters(text):
     # In the above regex expression,I am providing necessary set of punctuations that are frequent in this particular dataset.
     return Formatted_Text
 
-
-import matplotlib.pyplot as plt; plt.rcdefaults()
-import numpy as np
-import matplotlib.pyplot as plt
 def plotBarGraph(x,y, title):
     y_pos = np.arange(len(x))
     plt.rcParams["figure.figsize"] = (20,7)
@@ -330,7 +331,6 @@ def plotBarGraph(x,y, title):
     plt.title(title)
     return plt.show()
 
-from collections import Counter
 def getMostCommonWords(text_list,num_of_words=25):
     words = []
     count = []
@@ -340,3 +340,14 @@ def getMostCommonWords(text_list,num_of_words=25):
         words.append(w)
         count.append(c)
     return words,count
+
+ 
+def extract_hashtags(text):     
+    return re.findall("#(\w+)", text)
+
+def extract_hashtags_from_list(texts):
+  hashtags_list = []
+  for text in texts:
+    if(hashtags_list!=None):
+      hashtags_list.extend(extract_hashtags(text))
+  return hashtags_list
