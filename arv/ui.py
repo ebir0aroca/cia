@@ -33,7 +33,7 @@ def db_info(df):
   print("Data countries: ")
   print(df['scrap_meta.spider_country'].unique())
   print("")
-  print("Ammount of records: {} ".format(len(df.index)))
+  print("Ammount of records: {} ".format(len(df.index))) 
   print("Ammount of different SKUs: {} ".format(len(df['sku'].unique())))
   print("Ammount of Brands: {} ".format(len(df['brand'].unique())))
   print("")
@@ -47,12 +47,19 @@ def db_info(df):
   print("category 4:")
   print(df['category4'].unique())
 
-
   if 'category5' in df.columns:
     print("category 5:")
     print(df['category5'].unique())
   else:
     print("category 5 does not exist")
+
+  if 'category' in df.columns:
+    print("category:")
+    print(df['category'].unique())
+  else:
+    print("category does not exist")
+    
+  
 
 
 
