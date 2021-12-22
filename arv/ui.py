@@ -21,6 +21,39 @@ except ModuleNotFoundError as m_error:
     exit()
     
 
+def db_info(df):
+  print("Dataset characteristics ")
+  print("===========================")
+  print("Data scrap_meta.spider_date_end: ")
+  print(df['scrap_meta.spider_date_end'].unique())
+
+  print("Data retailers: ")
+  print(df['scrap_meta.spider_marketplace'].unique())
+  print("")
+  print("Data countries: ")
+  print(df['scrap_meta.spider_country'].unique())
+  print("")
+  print("Ammount of records: {} ".format(len(df.index)))
+  print("Ammount of different SKUs: {} ".format(len(df['sku'].unique())))
+  print("Ammount of Brands: {} ".format(len(df['brand'].unique())))
+  print("")
+  print("category 1...5")
+  print("category 1:")
+  print(df['category1'].unique())
+  print("category 2:")
+  print(df['category2'].unique())
+  print("category 3:")
+  print(df['category3'].unique())
+  print("category 4:")
+  print(df['category4'].unique())
+
+
+  if 'category5' in df.columns:
+    print("category 5:")
+    print(df['category5'].unique())
+  else:
+    print("category 5 does not exist")
+
 
 
 def missing_data_heatmap(df):
