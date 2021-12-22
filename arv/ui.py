@@ -38,15 +38,30 @@ def db_info(df):
   print("Ammount of Brands: {} ".format(len(df['brand'].unique())))
   print("")
   print("category 1...5")
-  print("category 1:")
-  print(df['category1'].unique())
-  print("category 2:")
-  print(df['category2'].unique())
-  print("category 3:")
-  print(df['category3'].unique())
-  print("category 4:")
-  print(df['category4'].unique())
+  if 'category1' in df.columns:
+    print("category 1:")
+    print(df['category1'].unique())
+  else:
+    print("category 1 does not exist")
 
+  if 'category2' in df.columns:
+    print("category 2:")
+    print(df['category2'].unique())
+  else:
+    print("category 2 does not exist")
+
+  if 'category3' in df.columns:
+    print("category 3:")
+    print(df['category3'].unique())
+  else:
+    print("category 3 does not exist")
+    
+  if 'category4' in df.columns:
+    print("category 4:")
+    print(df['category4'].unique())
+  else:
+    print("category 4 does not exist")
+    
   if 'category5' in df.columns:
     print("category 5:")
     print(df['category5'].unique())
