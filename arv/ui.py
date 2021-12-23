@@ -220,7 +220,7 @@ def func(pct, allvals):
     absolute = int(pct/100.*np.sum(allvals))
     return "{:.1f}%\n({:d} refs)".format(pct, absolute)
 
-def plot_pie(dataframe, classification, spider, count_label="count"):
+def plot_pie(dataframe, classification, source, count_label="count"):
   fig, ax = plt.subplots(figsize=(10, 10), subplot_kw=dict(aspect="equal"))
 
 
@@ -235,7 +235,7 @@ def plot_pie(dataframe, classification, spider, count_label="count"):
   plt.setp(autotexts, size=14, weight="bold")
 
 
-  ax.set_title(classification + ' (Source: '+ spider +')')
+  ax.set_title(classification + ' (Source: '+ source +')')
   plt.show()
 
 
