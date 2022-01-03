@@ -24,10 +24,12 @@ except ModuleNotFoundError as m_error:
 def db_info(df):
   print("Dataset characteristics ")
   print("===========================")
-  print("Data scrap_meta.spider_date_end: ")
-  print(df['scrap_meta.spider_date_end'].unique())
+  
+  if 'scrap_meta.spider_date_end' in df.columns:
+    print("Data scrap_meta.spider_date_end: ")
+    print(df['scrap_meta.spider_date_end'].unique())
 
-  print("Data retailers: ")
+  print("Data retailers: ") 
   print(df['scrap_meta.spider_marketplace'].unique())
   print("")
   print("Data countries: ")
